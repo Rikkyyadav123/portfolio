@@ -1,5 +1,8 @@
 import React , { useState, useEffect } from 'react';
 import myImage from './assets/portfolio-image2.jpg';
+import project3image from "./assets/cricket-score-app-image.jpg";
+import projecthealfitimage from  "./assets/healfitimage.png"
+
 import { 
   ChevronDown, 
   Github, 
@@ -11,7 +14,7 @@ import {
   Calendar,
   MapPin,
   Send,
-  Languages
+
 } from 'lucide-react';
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -53,10 +56,10 @@ function App() {
     {
       title: 'Heal fit',
       description: 'AI-driven fitness app providing personalized workout plans based on user preferences and goals.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: projecthealfitimage,
       tech: ['Typscript', 'Tailwind'],
       github: 'https://github.com/Rikkyyadav123/Healfit',
-      live: '#'
+      live: 'https://healfit1.netlify.app/'
     },
     {
       title: 'Car price prediction',
@@ -67,12 +70,12 @@ function App() {
       live: '#'
     },
     {
-      title: 'AI-Powered Analytics',
-      description: 'Machine learning dashboard for business intelligence with predictive analytics and data visualization.',
-      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tech: ['Python', 'TensorFlow', 'React', 'D3.js'],
-      github: '#',
-      live: '#'
+      title: 'Cricket score app',
+      description: "Developed a full-stack MERN application for real-time cricket match scoring, enabling users to manage innings, track batter/bowler performance, and update scores seamlessly. Built RESTful APIs with Node.js, Express.js, and MongoDB, implementing secure JWT authentication to ensure authorized access to match data.  ",
+      image: project3image,
+      tech: ['React', 'MongoDB', 'RestfulAPI', 'Expressjs','NodeJs'],
+      github: 'https://github.com/Rikkyyadav123/cricket-score-app',
+      live: 'https://cricketscorecardapp-website.onrender.com/' 
     }
   ];
 
