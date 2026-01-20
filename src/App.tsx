@@ -48,9 +48,9 @@ function App() {
   };
 
   const skills = [
-    { name: 'Frontend Development', icon: Code, description: 'React, TypeScript, Next.js, Tailwind CSS' },
-    { name: 'Backend Development', icon: Database, description: 'Node.js, Python, PostgreSQL, MongoDB' },
-    { name: 'languages' , icon:Languages, description: 'c,c++,Javascript,HTML,CSS'}
+    { name: 'Frontend Development', icon: Code, description: 'React.js, Tailwind CSS, HTML, CSS ' },
+    { name: 'Backend Development', icon: Database, description: 'NodeJS, ExpressJS, RESTful APIs, OOP, Async Programming, API Security MongoDB' },
+    { name: 'languages' , icon:Languages, description: 'C++, JavaScript, Java'}
   ];
 
   const projects = [
