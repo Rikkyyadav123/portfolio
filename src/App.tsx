@@ -14,6 +14,7 @@ import {
   Calendar,
   MapPin,
   Send,
+  Languages
 
 } from 'lucide-react';
 function App() {
@@ -49,7 +50,7 @@ function App() {
   const skills = [
     { name: 'Frontend Development', icon: Code, description: 'React, TypeScript, Next.js, Tailwind CSS' },
     { name: 'Backend Development', icon: Database, description: 'Node.js, Python, PostgreSQL, MongoDB' },
-    { name: 'languages' , icon:languages, description: 'c,c++,Javascript,HTML,CSS'}
+    { name: 'languages' , icon:Languages, description: 'c,c++,Javascript,HTML,CSS'}
   ];
 
   const projects = [
@@ -120,13 +121,13 @@ function App() {
               Full Stack Developer  crafting beautiful, functional digital experiences
             </p>
             <div className="flex justify-center space-x-6 mb-12">
-              <a href="https://github.com/Rikkyyadav123" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://github.com/Rikkyyadav123" className="text-gray-400 hover:text-blue-400 transition-colors" title="GitHub">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/rikky-yadav-519055269/" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/in/rikky-yadav-519055269/" className="text-gray-400 hover:text-blue-400 transition-colors" title="LinkedIn">
                 <Linkedin size={24} />
               </a>
-              <a href="rikky.22b0151019@abes.ac.in" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="rikky.22b0151019@abes.ac.in" className="text-gray-400 hover:text-blue-400 transition-colors" title="Email">
                 <Mail size={24} />
               </a>
             </div>
