@@ -49,7 +49,7 @@ function App() {
   const skills = [
     { name: 'Frontend Development', icon: Code, description: 'React, TypeScript, Next.js, Tailwind CSS' },
     { name: 'Backend Development', icon: Database, description: 'Node.js, Python, PostgreSQL, MongoDB' },
-    { name: 'Languages' , icon:Database, description: 'c,c++,Javascript,HTML,CSS'}
+    { name: 'languages' , icon:languages, description: 'c,c++,Javascript,HTML,CSS'}
   ];
 
   const projects = [
